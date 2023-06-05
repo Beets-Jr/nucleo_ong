@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 :root{
     --light-lilac: #f2e9eb;
     --lilac: #d4c7d9;
