@@ -1,4 +1,11 @@
-:root {
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
     --light-lilac: #f2e9eb;
     --lilac: #d4c7d9;
     --dark-lilac: #bf73ba;
@@ -11,11 +18,20 @@
     --gray: #726e73;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
 }
 section {
     padding: 75px 0px;
@@ -76,7 +92,7 @@ button {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     gap: 25px;
 

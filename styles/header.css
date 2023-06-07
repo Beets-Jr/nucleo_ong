@@ -1,1 +1,50 @@
-@import url("global.css");
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 150px;
+  padding: 40px 175px 40px 175px;
+
+  background-color: var(--white);
+}
+
+/* Logo */
+.logo{
+  cursor: pointer;
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.menu a {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--medium-purple);
+  text-decoration: none;
+  transition: hover 0.1s;
+}
+
+header nav a:hover,
+header nav a.active {
+  font-weight: 800;
+}
+
+/* Botão */
+.button {
+  padding: 8px 16px;
+  background-color: var(--medium-purple);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 12px 35px;
+  cursor: pointer;
+}
+
+.button:hover{
+  filter: brightness(0.9);
+}
