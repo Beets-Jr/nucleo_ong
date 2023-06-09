@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root{
+    --light-lilac: #f2e9eb;
+    --lilac: #d4c7d9;
+    --dark-lilac: #bf73ba;
+    --medium-purple: #7d3a7f;
+    --dark-purple: #5b3873;
+    --white: #ffffff;
+    --yellow-joy: #f2ce11;
+    --blue-sky: #30acec;
+    --orange-children: #ff9a24;
+    --gray: #726e73;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+section {
+    padding: 75px 0px;
+}
+
+/* estilizar text-align no css particular */
+h2 {
+    font-family: 'Poppins';
+    color: var(--dark-purple);
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-family: "Poppins";
+    font-size: 0.938rem;
+    font-weight: 600;
+    padding: 12px 35px;
+    
+    transition: all 350ms;
+    cursor: pointer;
+}
+
+
+/* estilizar o border-radius no css particular (10px pra arredondado e 50px pra redondo) */
+.botao-primario>button {
+    background-color: var(--dark-purple);
+    color: white;
+}
+
+.botao-primario>button:hover {
+    background-color: var(--medium-purple);
+}
+
+/* aqui, eu n sei como deixar o background transparente sem ter que colocar outra div no html, ent vou estiizar o barckgroung-color no css particular tb */
+.botao-secundario>button {
+    box-sizing: border-box;
+    /*não sei pq mas n ta fazendo diferença*/
+    border: 2px solid var(--dark-purple);
+    color: var(--dark-purple);
+}
+
+.botao-secundario>button:hover {
+    background-color: var(--dark-purple);
+    color: white;
+}
+
+
+.card-vertical {  
+    width: 330px;
+    height: 480px;
+    padding: 65px 40px;
+    border: 2px solid var(--dark-purple);
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 25px;
+
+    transition: all 300ms;
+}
+
+.card-vertical > h4{
+
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    color: var(--dark-purple);
+}
+
+.card-vertical > hr{
+    width: 70px;
+    border: 1.5px solid var(--dark-purple);
+}
+
+.card-vertical > p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--dark-purple);
+}
+
+.card-vertical:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    transform: translate(-5px, -5px);
+}
