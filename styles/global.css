@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 
 :root{
@@ -53,7 +54,9 @@ button {
     font-size: 0.938rem;
     font-weight: 600;
     padding: 12px 35px;
+    
     transition: all 350ms;
+    cursor: pointer;
 }
 
 

@@ -12,8 +12,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/projetos.css">
-    <link rel="stylesheet" href="styles/importancia.css">
+    <link rel="stylesheet" href="styles/home/projetos.css">
+    <link rel="stylesheet" href="styles/home/importancia.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="shortcut icon" type="imagex/svg" href="./assets/logo-cor3.svg">
@@ -23,15 +23,38 @@
 </head>
 <body>
     <header>
-        <img href="/" class="logo" src="./assets/logo-texto-cor1.svg"
-            alt="uma flor com uma menina e um menino no lado esquerdo e um coração no canto superior direito">
+        <div class="logo">
+            <img href="/" src="./assets/logo-texto-cor1.svg"
+                alt="uma flor com uma menina e um menino no lado esquerdo e um coração no canto superior direito">
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <nav class="menu">
-            <a href="/" class="active">Home</a>
-            <a href="#">Quem Somos</a>
-            <a href="#">Como Ajudar</a>
-            <a href="#">Transparência</a>
+            <ul>
+                <li>
+                    <a href="/" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="#">Como Ajudar</a>
+                </li>
+                <li>
+                    <a href="#">Transparência</a>
+                </li>
+                <li>
+                    <a href="" class="botao-primario" id="button">
+                        <button>
+                            DOAR
+                        </button>
+                    </a>
+                </li>
+            </ul>
         </nav>
-        <button class="button">DOAR</button>
     </header>
 
     <section id="hero" class="secao">
@@ -147,5 +170,6 @@
 
     </section>
 
+    <script src="scripts/header.js"></script>
 </body>
 </html>
