@@ -70,10 +70,13 @@ button {
     background-color: var(--medium-purple);
 }
 
-/* aqui, eu n sei como deixar o background transparente sem ter que colocar outra div no html, ent vou estiizar o barckgroung-color no css particular tb */
+/* aqui, eu n sei como deixar o background transparente sem ter que colocar outra div no html, ent vou estiizar o barckgroung-color no css particular tb 
+No meu funcionou usando esse "transparent" :)*/
 .botao-secundario>button {
+    background-color: transparent;
     box-sizing: border-box;
     /*não sei pq mas n ta fazendo diferença*/
+
     border: 2px solid var(--dark-purple);
     color: var(--dark-purple);
 }

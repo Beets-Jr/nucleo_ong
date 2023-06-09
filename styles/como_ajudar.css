@@ -1,0 +1,40 @@
+@import url("global.css");
+
+#como_ajudar-hero{    
+    background-color: var(--white);
+}
+
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 65px;
+    line-height: 98px;
+    color:var(--medium-purple);
+
+    bottom: 40px;
+}
+
+button {
+    border-radius: 50px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 30px;
+
+    text-align: justify;
+    color: var(--gray);
+}
+
+.botao-contribuinte{
+    background-color: var(--yellow-joy);
+    color: white;
+}
+
+.botao-contribuinte:hover {
+    background-color: var(--medium-purple);
+}
