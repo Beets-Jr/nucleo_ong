@@ -15,6 +15,17 @@ h1{
     bottom: 40px;
 }
 
+h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 36px;
+
+    text-align: right;
+    color:var(--dark-purple);
+}
+
 button {
     border-radius: 50px;
 }
@@ -26,7 +37,6 @@ p {
     font-size: 1.125rem;
     line-height: 30px;
 
-    text-align: justify;
     color: var(--gray);
 }
 
@@ -37,4 +47,37 @@ p {
 
 .botao-contribuinte:hover {
     background-color: var(--medium-purple);
+}
+
+#doacoes{
+    text-align: right;
+}
+
+#contato-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40.2566px 35.7836px;
+    gap: 31.31px;
+
+    width: 908.01px;
+    height: 199.49px;
+
+    background: white;
+    border: 1.78918px solid var(--dark-purple);
+    border-radius: 22.3648px;
+}
+
+h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    color:var(--dark-purple);
+}
+
+.contatos{
+    text-align: center;
+    color: var(--dark-purple);
 }
