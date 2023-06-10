@@ -2,9 +2,7 @@
 
 #projetos {
     position: absolute;
-    width: 1440px;
-    height: 1330px;
-
+    width: 100%;
     background-color:white;
     align-items: center;
 }
@@ -14,100 +12,51 @@
     margin-bottom: 85px;
 }
 
-#project-title{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 36px;
-    color:var(--dark-purple);
+#projetos-conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-#project-descricao{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;
-
-    color: var(--gray);
-}
-
-#project button{
+#projetos-conteudo button{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 10px;
-}
-
-.title-colonia-de-ferias {
-    position: absolute;
-    width: 435px;
-    height: 36px;
-    left: 800px;
-    top: 237px;
-}
-
-.text-project-colonia-de-ferias{
-    position: absolute;
-    height: 200px;
-    left: 800px;
-    top: 303px;
-}
-
-.img-colonia{
-    position: absolute;
-    width: 535.08px;
-    height: 462.68px;
-    left: 171px;
-    top: 172px;
-}
-
-.botao-apoie-colonia{
-    position: absolute;
-    width: 114px;
-    height: 47px;
-    left: 800px;
-    top: 533px;
 
     border-radius: 10px;
     color: white;
+}
+
+#projetos-conteudo h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    color:var(--dark-purple);
+}
+
+#projetos-conteudo p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+
+    color: var(--gray);
+}
+
+.botao-apoie-colonia{    
     background: var(--orange-children);
 }
 
-.title-aniversariante-do-mes{
-    position: absolute;
-    width: 432px;
-    height: 36px;
-    left: 209px;
-    top: 851px;
-}
-
-.img-aniversario{
-    position: absolute;
-    height: 438.79px;
-    left: 800px;
-    top: 785px;
-}
-
-.text-aniversariante-do-mes{
-    position: absolute;
-    width: 435px;
-    height: 150px;
-    left: 209px;
-    top: 917px;
-}
-
 .botao-apoie-aniversario {
-    position: absolute;
-    width: 114px;
-    height: 47px;
-    left: 208px;
-    top: 1097px;
-
-    border-radius: 10px;
-    color: white;
     background:var(--blue-sky);
 }
 
