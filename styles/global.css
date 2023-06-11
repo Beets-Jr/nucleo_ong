@@ -167,7 +167,7 @@ button {
     border-radius: 50px;
 }
 
-@media (max-width: 1270px) {
+@media (max-width: 1200px) {
     .card-horizontal {
         width: 310px;
         flex-direction: column;
