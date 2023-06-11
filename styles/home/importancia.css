@@ -44,6 +44,7 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin-bottom: 10px;
     }
     #importancia-conteudo > div:first-of-type p{
         width: 70%;
