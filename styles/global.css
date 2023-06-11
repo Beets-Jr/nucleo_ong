@@ -112,7 +112,7 @@ button {
     color: var(--dark-purple);
 }
 
-.card-vertical .linha-horizontal {
+.card-vertical .linha {
     width: 70px;
     border-bottom: 2px solid var(--dark-purple);
 }
@@ -132,7 +132,6 @@ button {
 
 .card-horizontal {
     width: 1030px;
-    /* height: 225px; */
     padding: 45px 40px;
     border: 2px solid var(--dark-purple);
     border-radius: 25px;
@@ -142,15 +141,17 @@ button {
     justify-content: center;
     align-items: center;
     gap: 35px;
+
+    text-align: center;
 }
 
-.card-horizontal .linha-vertical {
+.card-horizontal .linha {
     width: 0px;
     height: 70px;
     border-left: 2px solid var(--dark-purple);
 }
 
-.card-horizontal>div{
+.card-horizontal>div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -159,10 +160,25 @@ button {
 
 .card-horizontal>p {
     width: 350px;
-    text-align: center;
 }
 
-.card-horizontal button{
+.card-horizontal button {
     width: 220px;
     border-radius: 50px;
+}
+
+@media (max-width: 1270px) {
+    .card-horizontal {
+        width: 310px;
+        flex-direction: column;
+    }
+    .card-horizontal .linha {
+        width: 70px;
+        height: 0px;;
+        border-left: 0px;
+        border-bottom: 2px solid var(--dark-purple);
+    }
+    .card-horizontal>p{
+        width: 200px;
+    }
 }
