@@ -1,21 +1,24 @@
 @import url("global.css");
 
-#como_ajudar-hero{    
+section { 
     background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 40px 175px 40px 175px;
 }
 
-h1{
+h1 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
-    font-size: 65px;
+    font-size: 4rem;
     line-height: 98px;
     color:var(--medium-purple);
-
-    bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-h4{
+h4 {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -36,11 +39,12 @@ p {
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 30px;
-
+    margin-bottom: 40px;
     color: var(--gray);
 }
 
 .botao-contribuinte{
+    margin-right: 3rem;
     background-color: var(--yellow-joy);
     color: white;
 }
@@ -53,14 +57,20 @@ p {
     text-align: right;
 }
 
-#contato-card{
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato-card {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 40.2566px 35.7836px;
-    gap: 31.31px;
+    padding: 41px 36px;
+    gap: 30px;
 
     width: 908.01px;
     height: 199.49px;
@@ -70,14 +80,14 @@ p {
     border-radius: 22.3648px;
 }
 
-h5{
+.contato-card h5{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     color:var(--dark-purple);
 }
 
-.contatos{
+.meios-de-contatos{
     text-align: center;
     color: var(--dark-purple);
 }
