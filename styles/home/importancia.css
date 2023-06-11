@@ -38,3 +38,15 @@
     color: var(--gray);
 }
 
+@media (max-width: 1200px){
+    #importancia-conteudo > div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #importancia-conteudo > div:first-of-type p{
+        width: 70%;
+        text-align: center;
+    }
+}

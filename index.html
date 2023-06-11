@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,15 +13,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="styles/global.css">
-    <link rel="stylesheet" href="styles/home/projetos.css">
     <link rel="stylesheet" href="styles/home/importancia.css">
+    <link rel="stylesheet" href="styles/home/projetos.css">
+    <link rel="stylesheet" href="styles/home/parcerias.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="shortcut icon" type="imagex/svg" href="./assets/logo-cor3.svg">
-    
+
 
     <title>Home | Núcleo Angela Martin Bassetto</title>
 </head>
+
 <body>
     <header>
         <div class="logo">
@@ -68,7 +71,8 @@
         <div id="importancia-conteudo">
             <div>
                 <p>
-                    O Serviço desenvolvido pela Organização da Sociedade Civil (OSC) é de extrema importância para o município, visto que é a única
+                    O Serviço desenvolvido pela Organização da Sociedade Civil (OSC) é de extrema importância para o
+                    município, visto que é a única
                     unidade referenciada a atuar no desenvolvimento
                     do Serviço de Proteção Social Básica –
                     Fortalecimento de Vínculos Familiares e
@@ -88,7 +92,7 @@
             <div class="card-vertical">
                 <img src="./assets/people-icon.png" alt="Ícone de pessoa acenando">
                 <h4>Público Atendido</h4>
-                <hr>
+                <span class="linha"></span>
                 <p>
                     Diariamente, são atendidas 80 crianças na faixa
                     etária de 06 a 12 anos sem distinção de
@@ -102,7 +106,7 @@
             <div class="card-vertical">
                 <img src="./assets/food-icon.png" alt="Ícone de talheres">
                 <h4>Alimentação</h4>
-                <hr>
+                <span class="linha"></span>
                 <p>
                     Todos os dias, são oferecidos café da manhã,
                     almoço e lanche da tarde. Nas festividades
@@ -112,6 +116,55 @@
             </div>
         </div>
     </section>
+    
+    <!-- SEÇÃO PARCERIAS -->
+    <section id="parcerias" class="secao">
+        <h2>Parcerias</h2>
+        <p>Nossos parceiros de órgãos não governamentais</p>
+
+
+        <div>
+            <div class="card-horizontal">
+                <div>
+                    <img src="assets/enterprise.png" alt="Ícone de empresa">
+                    <h4>Empresa Parceira</h4>
+                </div>
+                <span class="linha"></span>
+                <p>
+                    Aliquam erat volutpat. Vivamus fringilla interdum mauris eu gravida. Nullam gravida varius felis dapibus
+                    porttitor. Etiam at consequat ligula. Integer ultrices hendrerit libero eu feugiat. Mauris in lorem
+                    odio.
+                </p>
+                <span class="linha"></span>
+                <a href="./pages/como_ajudar.html" class="botao-secundario">
+                    <button>
+                        Me tornar parceira
+                    </button>
+                </a>
+            </div>
+    
+            <div class="card-horizontal">
+                <div>
+                    <img src="assets/partnership.png" alt="Ícone de parceiro">
+                    <h4>Sócio Contribuinte</h4>
+                </div>
+                <span class="linha"></span>
+                <p>
+                    Através de doações mensais você ajudará na manutenção do trabalho
+                    desenvolvido pelo Núcleo de Atendimento
+                    Social "Angela Martin Basseto". E sua doação
+                    poderá ser deduzida no imposto de renda.
+                </p>
+                <span class="linha"></span>
+                <a href="./pages/como_ajudar.html" class="botao-secundario">
+                    <button>
+                        Me tornar sócio
+                    </button>
+                </a>
+            </div>
+        </div>
+
+    </section>
 
     <!-- SEÇÃO PROJETOS  -->
     <section id="projetos" class="secao">
@@ -119,44 +172,44 @@
         <h2>Nossos Projetos</h2>
 
         <div id="projetos-conteudo">
-                
-                <img src="./assets/projeto-colonia-de-ferias.svg" alt="projeto-colonia-de-ferias">
 
-                <div>
-                    <h3>Colônia de Férias</h3>
+            <img src="./assets/projeto-colonia-de-ferias.svg" alt="projeto-colonia-de-ferias">
 
-                    <p>
-                        O Núcleo de Atendimento Social "Ângela Martin Bassetto" <br>
-                        realizou a "Colônia de Férias" durante o mês de janeiro. <br>
-                        A colônia ocorreu no período da tarde e foi destinada a todas <br>
-                        as crianças atendidas pelo serviço. Durante esse período, <br>
-                        foi oferecida uma alimentação saudável e diversificada, além de <br>
-                        uma programação com várias atividades recreativas para <br>
-                        que as crianças pudessem aproveitar o período de férias <br>
-                        escolares em um ambiente seguro e agradável.
-                    </p>
+            <div>
+                <h3>Colônia de Férias</h3>
 
-                    <a href="./pages/como_ajudar.html">
-                        <button class="botao-apoie-colonia">APOIE</button>
-                    </a>
-                </div>
-                
-                <div>
-                    <h3>Aniversariante do Mês</h3>
-                    <p>
-                        O projeto "Anivesariante do Mês" é uma iniciativa do Núcleo <br>
-                        de Atendimento Social "Ângela Martin Bassetto" com o <br>
-                        propósito de promover acolhimento para comemorar os <br>
-                        anivesariantes do mês. O objetivo principal é proporcionar <br>
-                        um aniversário mais feliz e digno para aqueles que mais precisam.
-                    </p>
-        
-                    <a href="./pages/como_ajudar.html" >
-                        <button class="botao-apoie-aniversario">APOIE</button>
-                    </a>
-                </div>
+                <p>
+                    O Núcleo de Atendimento Social "Ângela Martin Bassetto" <br>
+                    realizou a "Colônia de Férias" durante o mês de janeiro. <br>
+                    A colônia ocorreu no período da tarde e foi destinada a todas <br>
+                    as crianças atendidas pelo serviço. Durante esse período, <br>
+                    foi oferecida uma alimentação saudável e diversificada, além de <br>
+                    uma programação com várias atividades recreativas para <br>
+                    que as crianças pudessem aproveitar o período de férias <br>
+                    escolares em um ambiente seguro e agradável.
+                </p>
 
-                <img src="./assets/projeto-aniversariante-do-mes.svg" alt="projeto-aniversariante-do-mes">        
+                <a href="./pages/como_ajudar.html">
+                    <button class="botao-apoie-colonia">APOIE</button>
+                </a>
+            </div>
+
+            <div>
+                <h3>Aniversariante do Mês</h3>
+                <p>
+                    O projeto "Anivesariante do Mês" é uma iniciativa do Núcleo <br>
+                    de Atendimento Social "Ângela Martin Bassetto" com o <br>
+                    propósito de promover acolhimento para comemorar os <br>
+                    anivesariantes do mês. O objetivo principal é proporcionar <br>
+                    um aniversário mais feliz e digno para aqueles que mais precisam.
+                </p>
+
+                <a href="./pages/como_ajudar.html">
+                    <button class="botao-apoie-aniversario">APOIE</button>
+                </a>
+            </div>
+
+            <img src="./assets/projeto-aniversariante-do-mes.svg" alt="projeto-aniversariante-do-mes">
         </div>
     </section>
 
@@ -167,4 +220,5 @@
 
     <script src="scripts/header.js"></script>
 </body>
+
 </html>

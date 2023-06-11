@@ -6,7 +6,7 @@
     list-style: none;
 }
 
-:root{
+:root {
     --light-lilac: #f2e9eb;
     --lilac: #d4c7d9;
     --dark-lilac: #bf73ba;
@@ -25,8 +25,8 @@ html {
 
 html,
 body {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 body {
@@ -34,6 +34,7 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
+
 section {
     padding: 75px 0px;
 }
@@ -54,7 +55,7 @@ button {
     font-size: 0.938rem;
     font-weight: 600;
     padding: 12px 35px;
-    
+
     transition: all 350ms;
     cursor: pointer;
 }
@@ -85,7 +86,7 @@ button {
 }
 
 
-.card-vertical {  
+.card-vertical {
     width: 330px;
     height: 480px;
     padding: 65px 40px;
@@ -102,8 +103,8 @@ button {
     transition: all 300ms;
 }
 
-.card-vertical > h4{
-
+.card-vertical h4,
+.card-horizontal h4 {
     font-family: "Poppins";
     font-size: 1.5rem;
     font-weight: 600;
@@ -111,19 +112,73 @@ button {
     color: var(--dark-purple);
 }
 
-.card-vertical > hr{
+.card-vertical .linha {
     width: 70px;
-    border: 1.5px solid var(--dark-purple);
+    border-bottom: 2px solid var(--dark-purple);
 }
 
-.card-vertical > p{
+.card-vertical>p,
+.card-horizontal>p {
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 1rem;
     color: var(--dark-purple);
 }
 
-.card-vertical:hover{
+.card-vertical:hover {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
     transform: translate(-5px, -5px);
+}
+
+.card-horizontal {
+    width: 1030px;
+    padding: 45px 40px;
+    border: 2px solid var(--dark-purple);
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+
+    text-align: center;
+}
+
+.card-horizontal .linha {
+    width: 0px;
+    height: 70px;
+    border-left: 2px solid var(--dark-purple);
+}
+
+.card-horizontal>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-horizontal>p {
+    width: 350px;
+}
+
+.card-horizontal button {
+    width: 220px;
+    border-radius: 50px;
+}
+
+@media (max-width: 1200px) {
+    .card-horizontal {
+        width: 310px;
+        flex-direction: column;
+    }
+    .card-horizontal .linha {
+        width: 70px;
+        height: 0px;;
+        border-left: 0px;
+        border-bottom: 2px solid var(--dark-purple);
+    }
+    .card-horizontal>p{
+        width: 200px;
+    }
 }
