@@ -1,10 +1,15 @@
 #hero {
   background: var(--light-lilac);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .content {
   display: flex;
   flex-direction: column;
+  margin: 15px;
   gap: 36px;
 }
 
@@ -37,6 +42,51 @@
   color: var(--white)
 }
 
-.logo-hero {
-  margin-right: 0;
+.logo-hero img {
+  margin-top: 200px;
+  width: 450px;
+  height: 380px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-hero img {
+    margin-top: -50px;
+    margin-left: 350px;
+    width: 350px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .content {
+    margin: 0 35px;
+  }
+
+  .logo-hero img {
+    margin-top: -50px;
+    margin-left: 250px;
+    width: 350px;
+    height: 280px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    margin: 0 35px;
+  }
+
+  .titulo {
+    font-size: 30px;
+  }
+
+  .descricao {
+    font-size: 15px;
+  }
+
+  .logo-hero img {
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 180px;
+  }
 }
