@@ -1,0 +1,42 @@
+#hero {
+  background: var(--light-lilac);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.descricao {
+  width: 530px;
+
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  color: var(--gray);
+}
+
+.titulo h1 span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000;
+}
+
+.titulo h1 {
+  color: var(--dark-purple);
+  font-size: 65px;
+}
+
+#button-hero {
+  color: var(--medium-purple);
+  border-radius: 50px;
+  border: 2px solid var(--medium-purple);
+}
+
+#button-hero:hover {
+  color: var(--white)
+}
+
+.logo-hero {
+  margin-right: 0;
+}
