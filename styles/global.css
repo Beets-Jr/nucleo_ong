@@ -167,6 +167,21 @@ button {
     border-radius: 50px;
 }
 
+.card-parceiro{
+    width: 210px;
+    border: 2px solid var(--dark-purple);
+    border-radius: 15px;
+    padding: 20px;
+
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 28px;
+
+    color: var(--dark-purple);
+    text-align: center;
+}
+
 @media (max-width: 1200px) {
     .card-horizontal {
         width: 310px;
