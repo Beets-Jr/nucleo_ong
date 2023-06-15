@@ -52,8 +52,10 @@
 }
 
 
-@media (max-width: 1116px) {
+@media (max-width: 1200px) {
     #equipe>div>div{
+        width: 80%;
+        margin: auto;
         justify-content: center;
     }
     #equipe h3{
