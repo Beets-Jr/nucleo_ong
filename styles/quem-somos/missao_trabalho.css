@@ -1,0 +1,62 @@
+@import url("global.css");
+
+#missao-trabalho h2{
+    margin-bottom: 30px;
+}
+
+#missao-trabalho>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+#missao-trabalho img{
+    width: 470px;
+    min-width: 250px;
+    height: auto;
+}
+
+#missao-trabalho>div>div{
+    max-width: 500px;
+    min-width: 250px;
+}
+
+#missao-trabalho p{
+    font-family: 'Roboto';
+    font-size: 1.125rem;
+
+    color: var(--gray);
+}
+
+#missao-trabalho>div:nth-of-type(2){
+    text-align: right;
+}
+
+@media (max-width: 1200px){
+    #missao-trabalho h2, #missao-trabalho p{
+        text-align: center;
+    }
+
+    #missao-trabalho>div{
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    #missao-trabalho>div:nth-of-type(2){
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    #missao-trabalho>div>div{
+        width: 70%;
+    }
+
+    #missao-trabalho img{
+        width: 80%;
+    }
+}
