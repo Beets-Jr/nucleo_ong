@@ -24,19 +24,13 @@
 }
 
 #parcerias>div:nth-of-type(1){
-    max-width: 1000px;
+    width: 80%;
     margin: auto;
     margin-bottom: 100px;
 
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
-}
-
-@media (max-width: 500px) {
-    #parcerias>div:nth-of-type(1){
-        flex-direction: column;
-    }
 }
