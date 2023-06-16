@@ -1,0 +1,83 @@
+@import url("global.css");
+
+section { 
+    background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 40px 175px 40px 175px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 98px;
+    color:var(--medium-purple);
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 36px;
+
+    text-align: right;
+    color:var(--dark-purple);
+}
+
+button {
+    border-radius: 50px;
+}
+
+p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-bottom: 40px;
+    color: var(--gray);
+}
+
+.botao-contribuinte{
+    margin-right: 3rem;
+    background-color: var(--yellow-joy);
+    color: white;
+}
+
+.botao-contribuinte:hover {
+    background-color: var(--medium-purple);
+}
+
+#doacoes{
+    text-align: right;
+}
+
+#doacoes-conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meios-de-contatos li{ 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: var(--dark-purple);
+    text-decoration: none;
+}
+
+.meios-de-contatos a{ 
+    text-decoration: none;
+}

@@ -1,3 +1,64 @@
 footer {
   background-color: var(--medium-purple);
+  width: 100vw;
+  min-height: 260px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer h3 {
+  color: var(--white);
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.menu-footer ul li a{
+  color: var(--light-lilac);
+  font-weight: 400;
+  font-size: 1rem;
+
+  transition: all 0.2s ease;
+}
+
+.menu-footer ul li a:hover{
+  font-weight: 600;
+}
+
+.info-footer p {
+  color: var(--white);
+  min-width: 150px;
+}
+
+.social-logo {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+
+  transition: all 0.2s ease;
+}
+
+.social-logo img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+#logo-footer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  footer {
+    flex-direction: column;
+    gap: 8rem;
+
+    text-align: center;
+    padding: 14rem;
+  }
+
+  .social-logo {
+      justify-content: center;
+  }
 }

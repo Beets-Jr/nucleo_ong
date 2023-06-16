@@ -3,18 +3,18 @@ header {
   align-items: center;
   justify-content: space-between;
 
-  width: 100%;
-  height: 150px;
+  width: 100vw;
+  height: 100px;
   padding: 40px 175px 40px 175px;
 
   background-color: var(--white);
 }
 
 /* Logo */
-.logo{
+.logo {
   cursor: pointer;
-  margin: 1rem;
 }
+
 
 .hamburger {
   display: none;
@@ -53,6 +53,10 @@ button {
 }
 
 @media only screen and (max-width: 1270px) {
+  header {
+    padding: 0 30px;
+  }
+
  .hamburger {
     display: block;
     cursor: pointer;
@@ -113,4 +117,15 @@ button {
   .menu ul li a {
     margin-bottom: 40px;
   }
+}
+
+@media only screen and (max-width: 425px) {
+    header {
+      padding: 0 10px;
+    }
+    
+    .logo img {
+      width: 160px;
+      height: 41px;
+    }
 }

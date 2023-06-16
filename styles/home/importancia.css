@@ -2,6 +2,9 @@
 
 #importancia h2{
     text-align: center;
+    
+    width: 80%;
+    margin: auto;
     margin-bottom: 85px;
 }
 
@@ -14,7 +17,6 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
 
     gap: 30px;
 }
@@ -36,5 +38,24 @@
     text-align: right;
 
     color: var(--gray);
+}
+
+@media (max-width: 1200px){   
+    #importancia h2{
+        margin-bottom: 50px;
+    } 
+    #importancia-conteudo > div:first-of-type{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        gap: 50px;
+        margin-bottom: 20px;
+    }
+    #importancia-conteudo > div:first-of-type p{
+        width: 70%;
+        text-align: center;
+    }
 }
 
