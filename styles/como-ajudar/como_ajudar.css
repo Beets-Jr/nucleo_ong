@@ -43,8 +43,16 @@ p{
     color: var(--gray);
 }
 
-.botao-contribuinte{
+#hero p{
+    text-align: justify;
+    width: 40rem;
+}
+
+#hero div a {
     margin-right: 3rem;
+}
+
+.botao-contribuinte{
     background-color: var(--yellow-joy);
     color: white;
 }
@@ -80,4 +88,31 @@ p{
 
 .meios-de-contatos a{ 
     text-decoration: none;
+}
+
+@media (max-width: 1200px){
+    #hero p{
+        text-align: justify;
+        width: 40rem;
+    }
+    
+}
+
+@media (max-width: 1036px){
+    .botao-contribuinte{
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 600px){
+    #hero{
+        align-items: center;
+        padding: 0rem 1.875rem;
+        text-align: center;
+     }
+
+    #hero p{
+        width:fit-content;
+        text-align: center;
+    }    
 }
