@@ -4,7 +4,7 @@ section {
     background-color: var(--white);
     width: 100%;
     align-items: center;
-    padding: 40px 175px 40px 175px;
+    padding: 2.5rem 10.93rem 2.5rem 10.93rem;
 }
 
 h1 {
@@ -14,8 +14,8 @@ h1 {
     font-size: 4rem;
     line-height: 98px;
     color:var(--medium-purple);
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.8rem;
 }
 
 h4 {
@@ -38,8 +38,8 @@ p{
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
-    line-height: 30px;
-    margin-bottom: 40px;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
     color: var(--gray);
 }
 

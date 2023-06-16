@@ -1,0 +1,45 @@
+@import url("global.css");
+
+section { 
+    background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 2.5rem 10.93rem 2.5rem 10.93rem;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4rem;
+    line-height: 98px;
+    color:var(--medium-purple);
+    margin-top: 2.5rem;
+    margin-bottom: 3.125rem;
+}
+
+p{
+    width: 48.68rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    margin-bottom:  2.5rem;
+    color: var(--gray);
+}
+
+button {
+    border-radius: 50px;
+    margin-bottom:  2.5rem;
+}
+
+.transparencia-botao{
+    margin-right: 3rem;
+    background-color: var(--yellow-joy);
+    color: white;
+}
+
+.transparencia-botao:hover {
+    background-color: var(--medium-purple);
+}
