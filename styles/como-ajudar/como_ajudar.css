@@ -92,27 +92,35 @@ p{
 
 @media (max-width: 1200px){
     #hero p{
-        text-align: justify;
         width: 40rem;
+    }
+
+    #hero div a {
+        margin-right: 0rem;
     }
     
 }
 
 @media (max-width: 1036px){
+    #hero p{
+        width:fit-content;
+    }    
+
     .botao-contribuinte{
         margin-bottom: 1rem;
     }
 }
 
 @media (max-width: 600px){
-    #hero{
-        align-items: center;
+    section{
         padding: 0rem 1.875rem;
-        text-align: center;
-     }
+    }
 
-    #hero p{
-        width:fit-content;
+    h4 {
+        text-align: center;
+    }
+
+    #hero p, #hero div{
         text-align: center;
     }    
 }
