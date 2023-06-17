@@ -1,0 +1,72 @@
+@import url("global.css");
+
+#historia { 
+    background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 2.5rem 10.93rem 2.5rem 10.93rem;
+}
+
+#historia-titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#historia-titulo h2, #historia-titulo img{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+#historia p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+    color: var(--gray);
+}
+
+#historia-conteudo{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+}
+
+#historia-texto, #historia-imagens {
+    flex: 1;
+}
+
+#historia-texto p{
+    text-align: left;
+}
+
+#historia-localizacao{
+    text-align: center;
+}
+
+@media (max-width: 1200px){
+    #historia-imagens img{
+        width: 20rem;
+        height: 22rem;
+    }
+}
+
+@media (max-width: 600px){
+    p{
+        font-size: 1rem;
+    }
+
+    #historia-conteudo {
+        flex-direction: column;
+    }
+
+    #historia-texto,
+    #historia-imagens {
+        flex-basis: 100%;
+    }
+
+    #historia-texto p{
+        text-align: center;
+    }
+}
