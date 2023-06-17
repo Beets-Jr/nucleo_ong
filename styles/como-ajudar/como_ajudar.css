@@ -61,14 +61,24 @@ p{
     background-color: var(--medium-purple);
 }
 
-#doacoes{
-    text-align: right;
+#doacoes h2{
+    text-align: center;
 }
 
 #doacoes-conteudo{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#doacoes-conteudo li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+#doacoes-como-doar h4,
+#doacoes-como-doar p{
+    text-align: right;
 }
 
 #doacoes-programa-nota-fiscal p, 
@@ -78,7 +88,7 @@ p{
 
 #doacoes-imposto-de-renda p,
 #doacoes-imposto-de-renda h4{
-    text-align: left;
+    text-align: center;
 }
 
 #doacoes-imposto-de-renda li{
@@ -130,7 +140,11 @@ p{
     #doacoes-imposto-de-renda li{
         font-size: 1rem;
     }
-    
+
+    #doacoes-conteudo img{
+        width: 400px;
+        height: 355px;
+    }
 }
 
 @media (max-width: 1036px){
