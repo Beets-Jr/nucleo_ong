@@ -71,9 +71,32 @@ p{
     align-items: center;
 }
 
+#doacoes-programa-nota-fiscal p, 
+#doacoes-programa-nota-fiscal h4{
+    text-align: center;
+}
+
+#doacoes-imposto-de-renda p,
+#doacoes-imposto-de-renda h4{
+    text-align: left;
+}
+
+#doacoes-imposto-de-renda li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: left;
+    color: var(--gray);
+}
+
 #doacoes a{
     text-decoration: underline;
-    color: var(--gray);
+    color: var(--orange-children);
+}
+
+#doacoes-imposto-de-renda a{
+    color: var(--blue-sky);
 }
 
 #contato {
@@ -103,6 +126,10 @@ p{
     #hero div a {
         margin-right: 0rem;
     }
+
+    #doacoes-imposto-de-renda li{
+        font-size: 1rem;
+    }
     
 }
 
@@ -118,6 +145,11 @@ p{
     #doacoes p{
         text-align: center;
     }
+
+    #idoacoes-imposto-de-renda p,
+    #idoacoes-imposto-de-renda h4{
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px){
@@ -127,6 +159,10 @@ p{
 
     h4 {
         text-align: center;
+    }
+
+    p{
+        font-size: 1rem;
     }
 
     #hero p, #hero div{
