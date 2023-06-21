@@ -1,0 +1,113 @@
+@import url("global.css");
+
+#historia { 
+    background-color: var(--white);
+    width: 100%;
+    align-items: center;
+    padding: 2.5rem 10.93rem 2.5rem 10.93rem;
+}
+
+#historia-titulo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#historia-titulo h2, #historia-titulo img{
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+#historia p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+    color: var(--gray);
+}
+
+#historia-conteudo{
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    gap: 60px;
+}
+
+#historia-texto, #historia-imagens {
+    flex: 1;
+}
+
+#historia-texto p{
+    text-align: left;
+}
+
+#historia-localizacao{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+}
+
+.card-localizacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 47.1689px 42.452px;
+    gap: 14.15px;
+
+    width: 645.83px;
+    height: 149.37px;
+    left: calc(50% - 645.83px/2 + 61.03px);
+    top: 746.86px;
+
+    background: white;
+    box-shadow: 7.86148px 7.86148px 7.86148px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    transition: all 300ms;
+}
+
+.card-localizacao:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+    transform: translate(-5px, -5px);
+}
+
+.card-localizacao h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: var(--dark-purple);
+}
+
+@media (max-width: 1200px){
+    #historia-imagens img{
+        width: 20rem;
+        height: 22rem;
+    }
+
+    #historia-conteudo {
+        flex-direction: column;
+    }
+
+    #historia-texto,
+    #historia-imagens {
+        flex-basis: 100%;
+    }
+
+    #historia-texto p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 900px){
+    p{
+        font-size: 1rem;
+    }
+
+    .card-localizacao {
+        width: fit-content;
+        height: fit-content;
+        flex-direction: column;
+    }
+}
