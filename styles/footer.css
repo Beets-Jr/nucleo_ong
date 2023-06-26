@@ -1,6 +1,5 @@
 footer {
   background-color: var(--medium-purple);
-  width: 100vw;
   min-height: 260px;
 
   display: flex;
@@ -30,6 +29,7 @@ footer h3 {
 .info-footer p {
   color: var(--white);
   min-width: 150px;
+  font-weight: 400;
 }
 
 .social-logo {
@@ -55,10 +55,15 @@ footer h3 {
     gap: 8rem;
 
     text-align: center;
-    padding: 14rem;
+    padding: 2rem;
   }
 
   .social-logo {
       justify-content: center;
+  }
+
+  #logo-footer img {
+    width: 257px;
+    height: 70px;
   }
 }

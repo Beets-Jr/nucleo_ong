@@ -1,0 +1,68 @@
+#hero_quem_somos {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  gap: 4.25rem;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.titulo_quem_somos {
+ display: flex;
+ flex-direction: column;
+}
+
+.titulo_quem_somos h1{
+  font-size: 96px;
+}
+
+.titulo_quem_somos img {
+  align-self: flex-end;
+  width: 162.px;
+  height: 137px;
+}
+
+.descricao_quem_somos {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.descricao_quem_somos p {
+  color: var(--gray);
+  font-size: 1.375rem;
+  max-width: 625px;
+}
+
+.botao_quem_somos button {
+  margin-top: 2rem;
+  background-color: var(--yellow-joy);
+  color: white;
+}
+
+@media (max-width: 1024px){
+  #hero_quem_somos{
+     flex-direction: column;
+  }
+
+  .titulo_quem_somos {
+    order: -1;
+    margin-bottom: 2rem;
+  }
+
+  .descricao_quem_somos {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 768px){
+  .titulo_quem_somos h1 {
+    font-size: 4rem;
+  }
+
+  .descricao_quem_somos p {
+    font-size: 1rem;
+  }
+}
