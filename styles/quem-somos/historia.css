@@ -8,13 +8,12 @@
 }
 
 #historia-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
     text-align: center;
     margin-bottom: 2rem;
-}
-
-#historia-titulo h2, #historia-titulo img{
-    display: inline-block;
-    margin: 0 0.5rem;
 }
 
 #historia p{
@@ -109,5 +108,11 @@
         width: fit-content;
         height: fit-content;
         flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    #historia-titulo img{
+        display: none;
     }
 }
