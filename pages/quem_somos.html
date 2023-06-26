@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
-    
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/quem-somos/hero_quem_somos.css">
     <link rel="stylesheet" href="../styles/quem-somos/quem_somos.css">
     <link rel="stylesheet" href="../styles/quem-somos/missao_trabalho.css">
     <link rel="stylesheet" href="../styles/quem-somos/equipe.css">
+    <link rel="stylesheet" href="../styles/quem-somos/historia.css">
 
     <link rel="shortcut icon" type="imagex/svg" href="../assets/logo-cor3.svg">
     <title>Quem Somos | Núcleo Angela Martin Bassetto</title>
@@ -58,8 +61,31 @@
         </nav>
     </header>
 
-    <section id="hero">
-        <h1>Quem somo nós?</h1>
+    <section id="hero_quem_somos">
+        <div class="descricao_quem_somos">
+            <p>
+                O <strong>Núcleo de Atendimento Social</strong> “Ângela Martin Bassetto”
+                é uma <strong>Organização da Sociedade Civil (OSC)</strong>,
+                sem fins econômicos. <strong>Desde 2009</strong> cumpre suas finalidades 
+                estatutárias de desenvolver ações voltadas ao <strong>atendimento da 
+                família, jovem, criança e adolescente.</strong>
+            </p>
+            <p>
+                Nesse sentido, buscamos promover a melhoria da qualidade 
+                de vida e exercício pleno da cidadania, seguindo os princípios e 
+                diretrizes estabelecidos no <strong>Estatuto da Criança e do Adolescente</strong> e
+                na <strong>Lei Orgânica da Assistência Social (LOAS).</strong>
+            </p>    
+            <a href="./pages/como_ajudar.html" class="botao-primario botao_quem_somos">
+                <button>
+                    Quero ajudar!
+                </button>
+            </a>
+        </div>
+        <div class="titulo_quem_somos">
+            <h1>Quem </br> somos </br> nós?</h1>
+            <img src="../assets/logo-cor1.svg">
+        </div>
     </section>
 
     <section id="missao-trabalho">
@@ -67,11 +93,13 @@
             <div>
                 <h2>Missão</h2>
                 <p>
-                    Promover o desenvolvimento das potencialidades das crianças e adolescentes, bem como o fortalecimento de vínculos familiares e comunitários.
+                    Promover o desenvolvimento das potencialidades das crianças e adolescentes, bem como o
+                    fortalecimento de vínculos familiares e comunitários.
                 </p>
             </div>
 
-            <img src="../assets/missao.svg" alt="Foto crianças com banner do Núcleo de Atendimento Social 'Angela Martin Bassettto'">
+            <img src="../assets/missao.svg"
+                alt="Foto crianças com banner do Núcleo de Atendimento Social 'Angela Martin Bassettto'">
         </div>
         <div>
             <img src="../assets/trabalho.svg" alt="Foto crianças brincando de cabo de guerra">
@@ -79,17 +107,20 @@
             <div>
                 <h2>Trabalho</h2>
                 <p>
-                    O trabalho é realizado em quatro grupos: dois grupos, para atender a faixa etária de 06 a 8 anos e dois grupos, para atender a faixa etária de 9 a 12 anos, através de Oficinas de Artes Manuais, Grupos Temáticos, Atividades Recreativas Direcionadas, Informática e Atividades de Esporte e Lazer
+                    O trabalho é realizado em quatro grupos: dois grupos, para atender a faixa etária de 06 a 8 anos e
+                    dois grupos, para atender a faixa etária de 9 a 12 anos, através de Oficinas de Artes Manuais,
+                    Grupos Temáticos, Atividades Recreativas Direcionadas, Informática e Atividades de Esporte e Lazer
                 </p>
             </div>
         </div>
-    </section>    
+    </section>
 
     <!-- SEÇÃO EQUIPE -->
     <section id="equipe">
         <h2>Equipe</h2>
         <p>
-            Maecenas libero elit, euismod id eleifend sed, blandit a metus. Interdum et  alesuada fames ac ante ipsum primis in faucibus. Suspendisse eleifend eu justo id eleifend.
+            Maecenas libero elit, euismod id eleifend sed, blandit a metus. Interdum et alesuada fames ac ante ipsum
+            primis in faucibus. Suspendisse eleifend eu justo id eleifend.
         </p>
 
         <div>
@@ -211,11 +242,79 @@
             </div>
         </div>
 
-        
+
     </section>
 
     <section id="historia">
-        <h2>História</h2>
+        <div id="historia-titulo">
+            <h2>História</h2>
+            <img src="../assets/logo-texto-cor1.svg" alt="Núcleo Angela Martin Basseto">
+        </div>
+
+        <div id="historia-conteudo">
+            <div id="historia-texto">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                    voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.Excepteur sint occaecat cupidatat non proident.
+                </p>
+            </div>
+            <div id="historia-imagens">
+                <img src="../assets/Imagem1-historia.svg" alt="Casa do Núcleo" class="historia-imagem-1">
+                <img src="../assets/Iamgem2-historia.svg" alt="Casa do Núcleo" class="historia-imagem-2">
+            </div>
+        </div>
+
+        <div id="historia-localizacao">
+            <div class="card-localizacao">
+                <img src="../assets/icone-visitar.png" alt="Visitantes">
+                <h4>VENHA NOS VISITAR</h4>
+                <img src="../assets/icone-endereco.png" alt="Endereço">
+                <p>
+                    Rua Capitão João Batista, n° 224, Bairro:
+                    Centro - CEP: 18.660-026 - Pratânia - SP
+                </p>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div id="logo-footer">
+            <img src="../assets/logo-texto-cor2.svg"
+                alt="uma flor com uma menina e um menino no lado esquerdo e um coração no canto superior direito">
+        </div>
+        <nav class="menu-footer">
+            <h3>Links rápidos</h3>
+            <ul>
+                <li>
+                    <a href="/" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="./pages/quem_somos.html">Quem Somos</a>
+                </li>
+                <li>
+                    <a href="./pages/como_ajudar.html">Como Ajudar</a>
+                </li>
+                <li>
+                    <a href="./pages/transparencia.html">Transparência</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="info-footer">
+            <h3>Informações de contato:</h3>
+            <p>Rua Capitão João Batista, n 224</br> Bairro: Centro - CEP: 18.660-026 - Pratânia - SP</p>
+            <div class="social-logo">
+                <img src="../assets/icone-ig.svg" alt="logo do instagram">
+                <img src="../assets/icone-fb.svg" alt="logo do facebook">
+            </div>
+        </div>
+    </footer>
+    <script src="../scripts/header.js"></script>
+    <script src="../scripts/footer.js"></script>
 </body>
+
 </html>

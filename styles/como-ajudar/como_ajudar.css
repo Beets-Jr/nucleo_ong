@@ -4,7 +4,7 @@ section {
     background-color: var(--white);
     width: 100%;
     align-items: center;
-    padding: 40px 175px 40px 175px;
+    padding: 2.5rem 10.93rem 2.5rem 10.93rem;
 }
 
 h1 {
@@ -14,8 +14,8 @@ h1 {
     font-size: 4rem;
     line-height: 98px;
     color:var(--medium-purple);
-    margin-top: 40px;
-    margin-bottom: 30px;
+    margin-top: 2.5rem;
+    margin-bottom: 1.8rem;
 }
 
 h4 {
@@ -38,13 +38,21 @@ p{
     font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
-    line-height: 30px;
-    margin-bottom: 40px;
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
     color: var(--gray);
 }
 
-.botao-contribuinte{
+#hero p{
+    text-align: justify;
+    width: 40rem;
+}
+
+#hero div a {
     margin-right: 3rem;
+}
+
+.botao-contribuinte{
     background-color: var(--yellow-joy);
     color: white;
 }
@@ -53,14 +61,52 @@ p{
     background-color: var(--medium-purple);
 }
 
-#doacoes{
-    text-align: right;
+#doacoes h2{
+    text-align: center;
 }
 
 #doacoes-conteudo{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#doacoes-conteudo li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+#doacoes-como-doar h4,
+#doacoes-como-doar p{
+    text-align: right;
+}
+
+#doacoes-programa-nota-fiscal p, 
+#doacoes-programa-nota-fiscal h4{
+    text-align: center;
+}
+
+#doacoes-imposto-de-renda p,
+#doacoes-imposto-de-renda h4{
+    text-align: center;
+}
+
+#doacoes-imposto-de-renda li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1rem;
+    text-align: left;
+    color: var(--gray);
+}
+
+#doacoes a{
+    text-decoration: underline;
+    color: var(--orange-children);
+}
+
+#doacoes-imposto-de-renda a{
+    color: var(--blue-sky);
 }
 
 #contato {
@@ -80,4 +126,60 @@ p{
 
 .meios-de-contatos a{ 
     text-decoration: none;
+}
+
+@media (max-width: 1200px){
+    #hero p{
+        width: 40rem;
+    }
+
+    #hero div a {
+        margin-right: 0rem;
+    }
+
+    #doacoes-imposto-de-renda li{
+        font-size: 1rem;
+    }
+
+    #doacoes-conteudo img{
+        width: 400px;
+        height: 355px;
+    }
+}
+
+@media (max-width: 1036px){
+    #hero p{
+        width:fit-content;
+    }    
+
+    .botao-contribuinte{
+        margin-bottom: 1rem;
+    }
+
+    #doacoes p{
+        text-align: center;
+    }
+
+    #idoacoes-imposto-de-renda p,
+    #idoacoes-imposto-de-renda h4{
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px){
+    section{
+        padding: 0rem 1.875rem;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    #hero p, #hero div{
+        text-align: center;
+    }    
 }
