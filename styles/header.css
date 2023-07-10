@@ -8,6 +8,10 @@ header {
   padding: 40px 175px 40px 175px;
 
   background-color: var(--white);
+
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 /* Logo */
@@ -83,7 +87,7 @@ button {
 
   .menu {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 0;
     right: 0;
 

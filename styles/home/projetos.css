@@ -11,18 +11,18 @@
     margin-bottom: 85px;
 }
 
-#projetos-conteudo {
+.projetos-conteudo {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10rem;
+    gap: 5rem;
 }
 
-#projetos-conteudo + #projetos-conteudo {
+.projetos-conteudo + .projetos-conteudo {
     margin-top: 10rem;
 }
 
-#projetos-conteudo button{
+.projetos-conteudo button{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -34,7 +34,7 @@
 }
 
 
-#projetos-conteudo h3{
+.projetos-conteudo h3{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -44,13 +44,15 @@
     color:var(--dark-purple);
 }
 
-#projetos-conteudo p{
+.projetos-conteudo p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 25px;
     margin-bottom: 15px;
+
+    max-width: 435px;
 
     color: var(--gray);
 }
@@ -68,21 +70,23 @@
 }
 
 @media only screen and (max-width: 768px) {
-    #projetos-conteudo img{
-       width: 400px;
-       height: 355px;
+    .projetos-conteudo{
+        gap: 1rem;
+    }
+    .projetos-conteudo img{
+       width: 80%;
     }
 
-    #projetos-conteudo h3{
+    .projetos-conteudo h3{
         text-align: center;
     }
 
-    #projetos-conteudo p{
+    .projetos-conteudo p{
         text-align: center;
-        width: fit-content;
+        margin: 0 2rem 30px 2rem;
     }
 
-    #projetos-conteudo button{
+    .projetos-conteudo button{
         margin: 0 auto;
     }
 }

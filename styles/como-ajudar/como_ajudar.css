@@ -3,8 +3,15 @@
 section { 
     background-color: var(--white);
     width: 100%;
-    align-items: center;
     padding: 2.5rem 10.93rem 2.5rem 10.93rem;
+}
+
+#hero { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--white);
+    height: 100vh;
 }
 
 h1 {
@@ -76,21 +83,46 @@ p{
     margin: 0 2rem;
 }
 
+#doacoes-como-doar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#doacoes-programa-nota-fiscal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#doacoes-como-doar h4 {
+    margin-top: 4rem;
+}
+
 #doacoes-como-doar h4,
 #doacoes-como-doar p{
-    text-align: right;
+    text-align: center;
+    max-width: 80%;
 }
 
 #doacoes-programa-nota-fiscal p, 
 #doacoes-programa-nota-fiscal h4{
     text-align: center;
+    max-width: 80%;
 }
 
-#doacoes-imposto-de-renda p,
-#doacoes-imposto-de-renda h4{
+.video {
     text-align: center;
 }
 
+/* 
+#doacoes-imposto-de-renda p,
+#doacoes-imposto-de-renda h4{
+    text-align: center;
+} */
+/* 
 #doacoes-imposto-de-renda li{
     font-family: 'Roboto';
     font-style: normal;
@@ -98,16 +130,16 @@ p{
     font-size: 1.1rem;
     text-align: left;
     color: var(--gray);
-}
+} */
 
 #doacoes a{
     text-decoration: underline;
     color: var(--orange-children);
 }
-
+/* 
 #doacoes-imposto-de-renda a{
     color: var(--blue-sky);
-}
+} */
 
 #contato {
     display: flex;
@@ -119,13 +151,32 @@ p{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.2rem;
     color: var(--dark-purple);
     text-decoration: none;
 }
 
 .meios-de-contatos a{ 
     text-decoration: none;
+}
+
+#empresas-parceiras h2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#empresa-parceira-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#empresa-parceira-conteudo p {
+    margin-top: 2rem;
+    max-width: 80%;
+    text-align: center;
 }
 
 @media (max-width: 1200px){
@@ -142,7 +193,6 @@ p{
     }
 
     #doacoes-conteudo img{
-        width: 400px;
         height: 355px;
     }
 }
@@ -182,4 +232,26 @@ p{
     #hero p, #hero div{
         text-align: center;
     }    
+
+    .card-horizontal {
+        margin-bottom: 4rem ;
+    }
+}
+
+
+@media (max-width: 425px){
+    .video iframe {
+        display: none;
+    }
+
+    #doacoes-conteudo #imagem{
+        width: 80%;
+    }
+
+    #doacoes-conteudo ul li {
+        display: flex;
+        justify-content: center;
+    }
+
+
 }
