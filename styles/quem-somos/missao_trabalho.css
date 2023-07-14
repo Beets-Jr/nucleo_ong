@@ -26,6 +26,7 @@
 #missao-trabalho p{
     font-family: 'Roboto';
     font-size: 1.125rem;
+    line-height: 1.8rem;
 
     color: var(--gray);
 }
