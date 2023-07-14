@@ -20,7 +20,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.8rem;
     color: var(--gray);
 }
@@ -36,8 +36,9 @@
     flex: 1;
 }
 
-#historia-texto p{
-    text-align: left;
+#historia-texto p, .historia-texto-continuacao p{
+    text-align: justify;
+    margin-bottom: 1rem;
 }
 
 #historia-localizacao{
