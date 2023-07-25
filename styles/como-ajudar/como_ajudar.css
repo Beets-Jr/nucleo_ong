@@ -185,6 +185,10 @@ p{
 }
 
 @media (max-width: 1200px){
+    #hero {
+        flex-direction: column-reverse;
+    }
+
     #hero p{
         width: 40rem;
     }
@@ -194,7 +198,11 @@ p{
     }
 
     #hero .imagem img{
-        width: 300px;
+        width: 500px;
+    }
+
+    #doacoes {
+        text-align: center;
     }
 
     #doacoes-imposto-de-renda li{
@@ -207,6 +215,7 @@ p{
 }
 
 @media (max-width: 1036px){
+    
     #hero p{
         width:fit-content;
     }    
@@ -225,7 +234,7 @@ p{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 768px){
     section{
         padding: 0rem 1.875rem;
     }
@@ -238,9 +247,19 @@ p{
         font-size: 1rem;
     }
 
+    #hero .imagem{
+        display: none;
+    }
+
     #hero p, #hero div{
         text-align: center;
     }    
+
+    #hero .botoes  {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 
     .card-horizontal {
         margin-bottom: 4rem ;
