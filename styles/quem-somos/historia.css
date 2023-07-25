@@ -32,6 +32,10 @@
     gap: 60px;
 }
 
+#historia-texto-continuacao {
+    margin-bottom: 2rem;
+}
+
 #historia-texto, #historia-imagens {
     flex: 1;
 }
@@ -98,6 +102,10 @@
     #historia-texto p{
         text-align: center;
     }
+
+    .historia-texto-continuacao p{
+        text-align: center;
+    }
 }
 
 @media (max-width: 900px){
@@ -116,10 +124,14 @@
     #historia-titulo img{
         display: none;
     }
+
+    #historia {
+        padding: 2.5rem 5 2.5rem 5rem;
+    }
 }
 
-@media (max-width: 320px){
+@media (max-width: 700px){
     #historia {
-        padding: 0;
+        padding: 2.5rem 2rem 2.5rem 2rem;
     }
 }
