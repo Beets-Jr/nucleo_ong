@@ -12,6 +12,7 @@
     --dark-lilac: #bf73ba;
     --medium-purple: #7d3a7f;
     --dark-purple: #5b3873;
+    --medium-dark-purple: #7a4a8a;
     --white: #ffffff;
     --yellow-joy: #f2ce11;
     --blue-sky: #30acec;
@@ -95,7 +96,7 @@ button {
 
 .card-vertical {
     width: 330px;
-    height: 480px;
+    height: 520px;
     padding: 65px 40px;
     border: 2px solid var(--dark-purple);
     border-radius: 25px;
@@ -122,6 +123,11 @@ button {
 .card-vertical .linha {
     width: 70px;
     border-bottom: 2px solid var(--dark-purple);
+}
+
+.card-vertical strong {
+    font-weight: 600;
+    color: var(--medium-dark-purple);
 }
 
 .card-vertical>p,
